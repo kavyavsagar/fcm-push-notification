@@ -5,4 +5,6 @@ If our server api is done in PHP, we can use this method to integrate FCM for pu
 
 Any device (ios/android) get registered which have device token and its saved into our db using an api. When we send a notification to single or multiple users which can be done with this token. Please check the source code for more clarity.
 
+I don't mention the creation of firebase app creation and get a Server Key from there https://console.firebase.google.com/u/0/ You can refer https://firebase.google.com/docs/cloud-messaging for more details.
+
 
